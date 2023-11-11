@@ -1,0 +1,16 @@
+// entities class has the data we need only from the api response
+class Weather {
+  final int id;
+  final String cityName;
+  final String main;
+  final String description;
+  final int pressure;
+
+  Weather(
+    this.id,
+    this.cityName,
+    this.main,
+    this.description,
+    this.pressure,
+  );
+}
